@@ -11,15 +11,15 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import wang.layoutdemo.FrameLayout.FrameLayoutActivity;
-import wang.layoutdemo.FrameLayout.FrameLayoutBaseActivity;
 import wang.layoutdemo.GridLayout.GridLayoutActivity;
 import wang.layoutdemo.LinearLayout.LinearLayoutActivity;
 import wang.layoutdemo.RelativeLayout.RelativeLayoutActivity;
+import wang.layoutdemo.TableLayout.TableLayoutActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     public static Context context;
-    String[] layout = new String[] {"LinearLayout","RelativeLayout","FrameLayout","FrameLayoutBaseActivity"};
+    String[] layout = new String[] {"LinearLayout","RelativeLayout","FrameLayout","GridLayout","TableLayout"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         context = this;
@@ -33,21 +33,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
-                    case 1:
+                    case 0:
                         Intent intent1 = new Intent(MainActivity.this, LinearLayoutActivity.class);
                         startActivity(intent1);
-                    case 2:
+                        break;
+                    case 1:
                         Intent intent2 = new Intent(MainActivity.this, RelativeLayoutActivity.class);
                         startActivity(intent2);
-                    case 3:
+                        break;
+                    case 2:
                         Intent intent3 = new Intent(MainActivity.this, FrameLayoutActivity.class);
                         startActivity(intent3);
-                    case 4:
-                        Intent intent4 = new Intent(MainActivity.this, FrameLayoutBaseActivity.class);
+                        break;
+                    case 3:
+                        Intent intent4 = new Intent(MainActivity.this, GridLayoutActivity.class);
                         startActivity(intent4);
-                    case 5:
-                        Intent intent5 = new Intent(MainActivity.this, GridLayoutActivity.class);
+                        break;
+                    case 4:
+                        Intent intent5 = new Intent(MainActivity.this, TableLayoutActivity.class);
                         startActivity(intent5);
+                        break;
                 }
             }
         });

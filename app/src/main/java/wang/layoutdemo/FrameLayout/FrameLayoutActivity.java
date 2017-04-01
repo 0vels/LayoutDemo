@@ -9,9 +9,6 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import wang.layoutdemo.GridLayout.GridLayoutActivity;
-import wang.layoutdemo.TableLayout.TableLayoutActivity;
-
 public class FrameLayoutActivity extends AppCompatActivity {
 
     String[] layout = new String[]{"FrameLayoutBaseActivity", "FrameLayoutLeastCodeActivity", "FrameLayoutForegroundActivity", "FrameLayoutMarginAndPaddingActivity"};
@@ -28,21 +25,26 @@ public class FrameLayoutActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
-                    case 1:
+                    case 0:
                         Intent intent1 = new Intent(FrameLayoutActivity.this, FrameLayoutBaseActivity.class);
                         startActivity(intent1);
-                    case 2:
+                        break;
+                    case 1:
                         Intent intent2 = new Intent(FrameLayoutActivity.this, FrameLayoutLeastCodeActivity.class);
                         startActivity(intent2);
-                    case 3:
-                        Intent intent3 = new Intent(FrameLayoutActivity.this, FrameLayoutActivity.class);
+                        break;
+                    case 2:
+                        Intent intent3 = new Intent(FrameLayoutActivity.this, FrameLayoutForegroundActivity.class);
                         startActivity(intent3);
-                    case 4:
-                        Intent intent4 = new Intent(FrameLayoutActivity.this, TableLayoutActivity.class);
+                        break;
+                    case 3:
+                        Intent intent4 = new Intent(FrameLayoutActivity.this, FrameLayoutMarginAndPaddingActivity.class);
                         startActivity(intent4);
-                    case 5:
-                        Intent intent5 = new Intent(FrameLayoutActivity.this, GridLayoutActivity.class);
-                        startActivity(intent5);
+                        break;
+//                    case 4:
+//                        Intent intent5 = new Intent(FrameLayoutActivity.this, GridLayoutActivity.class);
+//                        startActivity(intent5);
+//                        break;
                 }
             }
         });

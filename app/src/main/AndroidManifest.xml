@@ -30,7 +30,11 @@
         <activity android:name=".LinearLayout.linearLayoutWeightActivity" />
         <activity android:name=".LinearLayout.linearLayoutDividerActivity" />
         <activity android:name=".LinearLayout.linearLayoutMarginAndPaddingActivity" />
-        <activity android:name=".LinearLayout.LinearLayoutGravityActivity"></activity>
+        <activity android:name=".LinearLayout.LinearLayoutGravityActivity" />
+        <activity android:name=".TableLayout.TableLayoutLeastCodeActivity" />
+        <activity android:name=".TableLayout.TableLayoutBaseActivity" />
+        <activity android:name=".TableLayout.TableLayoutCollapseActivity" />
+        <activity android:name=".TableLayout.TableLayoutShrinkAndStretchActivity"></activity>
     </application>
 
 </manifest>
