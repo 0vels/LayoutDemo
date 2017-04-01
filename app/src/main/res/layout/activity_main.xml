@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wang.layoutdemo.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Linearlayout"
+        />
+    <TextView
+        android:id="@+id/relativilayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Relativilayout"
+        />
+    <TextView
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Framelayout"
+        />
+    <TextView
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tablelayout"
+        />
+    <TextView
+        android:id="@+id/gridelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Gridelayout"
+        />
+
+</LinearLayout>

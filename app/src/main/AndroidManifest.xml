@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wang.layoutdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RelativeLayout.RelativeLayoutActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutActivity" />
+        <activity android:name=".FrameLayout.FrameLayoutActivity" />
+        <activity android:name=".GridLayout.GridLayoutActivity" />
+        <activity android:name=".TableLayout.TableLayoutActivity" />
+        <activity android:name=".FrameLayout.FrameLayoutLeastCodeActivity" />
+        <activity android:name=".FrameLayout.FrameLayoutBaseActivity" />
+        <activity android:name=".FrameLayout.FrameLayoutForegroundActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutLeastCodeActivity" />
+        <activity android:name=".LinearLayout.linearLayoutBaseActivity" />
+        <activity android:name=".FrameLayout.FrameLayoutMarginAndPaddingActivity" />
+        <activity android:name=".LinearLayout.linearLayoutWeightActivity" />
+        <activity android:name=".LinearLayout.linearLayoutDividerActivity" />
+        <activity android:name=".LinearLayout.linearLayoutMarginAndPaddingActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutGravityActivity"></activity>
+    </application>
+
+</manifest>
