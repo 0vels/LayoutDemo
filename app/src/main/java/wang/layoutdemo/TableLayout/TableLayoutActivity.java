@@ -9,13 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import wang.layoutdemo.FrameLayout.FrameLayoutMarginAndPaddingActivity;
-import wang.layoutdemo.LinearLayout.LinearLayoutGravityActivity;
-import wang.layoutdemo.LinearLayout.linearLayoutMarginAndPaddingActivity;
-import wang.layoutdemo.LinearLayout.linearLayoutWeightActivity;
-
 public class TableLayoutActivity extends AppCompatActivity {
-    String[] layout = new String[]{"TableLayoutBaseActivity", "TableLayoutLeastCodeActivity", "TableLayoutCollapseActivity", "TableLayoutShrinkAndStretchActivity"};
+    String[] layout = new String[]{"TableLayoutBaseActivity", "TableLayoutLeastCodeActivity", "TableLayoutShrinkAndStretchActivity"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);LinearLayout linearLayout = new LinearLayout(this);
@@ -36,21 +31,10 @@ public class TableLayoutActivity extends AppCompatActivity {
                         startActivity(intent2);
                         break;
                     case 2:
-                        Intent intent3 = new Intent(TableLayoutActivity.this, TableLayoutCollapseActivity.class);
+                        Intent intent3 = new Intent(TableLayoutActivity.this, TableLayoutShrinkAndStretchActivity.class);
                         startActivity(intent3);
                         break;
-                    case 3:
-                        Intent intent4 = new Intent(TableLayoutActivity.this, TableLayoutShrinkAndStretchActivity.class);
-                        startActivity(intent4);
-                        break;
-                    case 4:
-                        Intent intent5 = new Intent(TableLayoutActivity.this, linearLayoutWeightActivity.class);
-                        startActivity(intent5);
-                        break;
-                    case 5:
-                        Intent intent6 = new Intent(TableLayoutActivity.this, linearLayoutMarginAndPaddingActivity.class);
-                        startActivity(intent6);
-                        break;
+
                 }
             }
         });

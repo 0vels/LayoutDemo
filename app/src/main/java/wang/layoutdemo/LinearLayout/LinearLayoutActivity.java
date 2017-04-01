@@ -9,11 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import wang.layoutdemo.FrameLayout.FrameLayoutLeastCodeActivity;
-import wang.layoutdemo.FrameLayout.FrameLayoutMarginAndPaddingActivity;
-
 public class LinearLayoutActivity extends AppCompatActivity {
-    String[] layout = new String[]{"linearLayoutBaseActivity", "LinearLayoutLeastCodeActivity", "linearLayoutDividerActivity", "LinearLayoutGravityActivity","linearLayoutWeightActivity","linearLayoutMarginAndPaddingActivity"};
+    String[] layout = new String[]{"LinearLayoutBaseActivity", "LinearLayoutLeastCodeActivity", "LinearLayoutDividerActivity", "LinearLayoutGravityActivity","LinearLayoutWeightActivity","LinearLayoutMarginAndPaddingActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,15 +29,15 @@ public class LinearLayoutActivity extends AppCompatActivity {
                         startActivity(intent1);
                         break;
                     case 1:
-                        Intent intent2 = new Intent(LinearLayoutActivity.this, FrameLayoutLeastCodeActivity.class);
+                        Intent intent2 = new Intent(LinearLayoutActivity.this, LinearLayoutLeastCodeActivity.class);
                         startActivity(intent2);
                         break;
                     case 2:
-                        Intent intent3 = new Intent(LinearLayoutActivity.this, LinearLayoutGravityActivity.class);
+                        Intent intent3 = new Intent(LinearLayoutActivity.this, linearLayoutDividerActivity.class);
                         startActivity(intent3);
                         break;
                     case 3:
-                        Intent intent4 = new Intent(LinearLayoutActivity.this, FrameLayoutMarginAndPaddingActivity.class);
+                        Intent intent4 = new Intent(LinearLayoutActivity.this, LinearLayoutGravityActivity.class);
                         startActivity(intent4);
                         break;
                     case 4:

@@ -33,8 +33,13 @@
         <activity android:name=".LinearLayout.LinearLayoutGravityActivity" />
         <activity android:name=".TableLayout.TableLayoutLeastCodeActivity" />
         <activity android:name=".TableLayout.TableLayoutBaseActivity" />
-        <activity android:name=".TableLayout.TableLayoutCollapseActivity" />
-        <activity android:name=".TableLayout.TableLayoutShrinkAndStretchActivity"></activity>
+        <activity android:name=".TableLayout.TableLayoutShrinkAndStretchActivity" />
+        <activity android:name=".RelativeLayout.RelativeLayoutLeastCodeActivity" />
+        <activity android:name=".RelativeLayout.RelativeLayoutBaseActivity" />
+        <activity android:name=".RelativeLayout.RelativeLayoutAlighParentActivity" />
+        <activity android:name=".RelativeLayout.RelativeLayoutMarginAndPaddingActivity" />
+        <activity android:name=".GridLayout.GridLeastCodeActivity" />
+        <activity android:name=".GridLayout.GridBaseActivity" />
     </application>
 
 </manifest>
