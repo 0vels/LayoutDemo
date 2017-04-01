@@ -7,7 +7,7 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-public class TableLayoutShrinkAndStretchActivity extends AppCompatActivity {
+public class TableLayoutStretchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +23,7 @@ public class TableLayoutShrinkAndStretchActivity extends AppCompatActivity {
 
         TableLayout.LayoutParams layoutParams = new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.MATCH_PARENT);
         tableLayout.setBackgroundColor(Color.GRAY);
-        tableLayout.setColumnShrinkable(0,true);
         tableLayout.setColumnStretchable(1,true);
-        tableLayout.setColumnCollapsed(2, true);
         tableLayout.setLayoutParams(layoutParams);
 
         TableLayout.LayoutParams tableRowParams = new TableLayout.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT, TableLayout.LayoutParams.WRAP_CONTENT);

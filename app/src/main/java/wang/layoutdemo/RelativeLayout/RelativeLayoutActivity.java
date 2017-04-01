@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 public class RelativeLayoutActivity extends AppCompatActivity {
-    String[] layout = new String[]{"RelativeLayoutAlighParentActivity", "RelativeLayoutBaseActivity", "RelativeLayoutLeastCodeActivity", "RelativeLayoutMarginAndPaddingActivity"};
+    String[] layout = new String[]{"RelativeLayoutAlighParentActivity", "RelativeLayoutBaseActivity", "RelativeLayoutLeastCodeActivity", "RelativeLayoutMarginActivity","RelativeLayoutPaddingActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,15 +37,15 @@ public class RelativeLayoutActivity extends AppCompatActivity {
                         startActivity(intent3);
                         break;
                     case 3:
-                        Intent intent4 = new Intent(RelativeLayoutActivity.this, RelativeLayoutMarginAndPaddingActivity.class);
+                        Intent intent4 = new Intent(RelativeLayoutActivity.this, RelativeLayoutMarginActivity.class);
                         startActivity(intent4);
                         break;
-//                    case 4:
-//                        Intent intent5 = new Intent(RelativeLayoutActivity.this, linearLayoutWeightActivity.class);
-//                        startActivity(intent5);
-//                        break;
+                    case 4:
+                        Intent intent5 = new Intent(RelativeLayoutActivity.this, RelativeLayoutPaddingActivity.class);
+                        startActivity(intent5);
+                        break;
 //                    case 5:
-//                        Intent intent6 = new Intent(RelativeLayoutActivity.this, linearLayoutMarginAndPaddingActivity.class);
+//                        Intent intent6 = new Intent(RelativeLayoutActivity.this, linearLayoutPaddingActivity.class);
 //                        startActivity(intent6);
 //                        break;
                 }

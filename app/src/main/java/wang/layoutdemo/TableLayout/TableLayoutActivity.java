@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 public class TableLayoutActivity extends AppCompatActivity {
-    String[] layout = new String[]{"TableLayoutBaseActivity", "TableLayoutLeastCodeActivity", "TableLayoutShrinkAndStretchActivity"};
+    String[] layout = new String[]{"TableLayoutBaseActivity", "TableLayoutLeastCodeActivity", "TableLayoutStretchActivity","TableLayoutShrinkActivity","TableLayoutCollapseActivity"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);LinearLayout linearLayout = new LinearLayout(this);
@@ -31,8 +31,16 @@ public class TableLayoutActivity extends AppCompatActivity {
                         startActivity(intent2);
                         break;
                     case 2:
-                        Intent intent3 = new Intent(TableLayoutActivity.this, TableLayoutShrinkAndStretchActivity.class);
+                        Intent intent3 = new Intent(TableLayoutActivity.this, TableLayoutStretchActivity.class);
                         startActivity(intent3);
+                        break;
+                    case 3:
+                        Intent intent4 = new Intent(TableLayoutActivity.this, TableLayoutShrinkActivity.class);
+                        startActivity(intent4);
+                        break;
+                    case 4:
+                        Intent intent5 = new Intent(TableLayoutActivity.this, TableLayoutCollapseActivity.class);
+                        startActivity(intent5);
                         break;
 
                 }

@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import wang.layoutdemo.MainActivity;
 
-public class linearLayoutMarginAndPaddingActivity extends AppCompatActivity {
+public class linearLayoutPaddingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,6 @@ public class linearLayoutMarginAndPaddingActivity extends AppCompatActivity {
 
         LinearLayout.LayoutParams text1 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         text1.height = MainActivity.dp2px(50);
-        text1.setMargins(MainActivity.dp2px(15),0,MainActivity.dp2px(15),0);
         textView1.setBackgroundColor(Color.BLUE);
         textView1.setLayoutParams(text1);
 

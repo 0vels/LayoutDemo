@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 public class FrameLayoutActivity extends AppCompatActivity {
 
-    String[] layout = new String[]{"FrameLayoutBaseActivity", "FrameLayoutLeastCodeActivity", "FrameLayoutForegroundActivity", "FrameLayoutMarginAndPaddingActivity"};
+    String[] layout = new String[]{"FrameLayoutBaseActivity", "FrameLayoutLeastCodeActivity", "FrameLayoutForegroundActivity", "FrameLayoutMarginActivity","FrameLayoutPaddingActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,13 +38,13 @@ public class FrameLayoutActivity extends AppCompatActivity {
                         startActivity(intent3);
                         break;
                     case 3:
-                        Intent intent4 = new Intent(FrameLayoutActivity.this, FrameLayoutMarginAndPaddingActivity.class);
+                        Intent intent4 = new Intent(FrameLayoutActivity.this, FrameLayoutMarginActivity.class);
                         startActivity(intent4);
                         break;
-//                    case 4:
-//                        Intent intent5 = new Intent(FrameLayoutActivity.this, GridLayoutActivity.class);
-//                        startActivity(intent5);
-//                        break;
+                    case 4:
+                        Intent intent5 = new Intent(FrameLayoutActivity.this, FrameLayoutPaddingActivity.class);
+                        startActivity(intent5);
+                        break;
                 }
             }
         });

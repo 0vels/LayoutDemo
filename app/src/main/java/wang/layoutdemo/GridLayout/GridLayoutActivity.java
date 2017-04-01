@@ -47,7 +47,7 @@ public class GridLayoutActivity extends AppCompatActivity {
 //                        startActivity(intent5);
 //                        break;
 //                    case 5:
-//                        Intent intent6 = new Intent(LinearLayoutActivity.this, linearLayoutMarginAndPaddingActivity.class);
+//                        Intent intent6 = new Intent(LinearLayoutActivity.this, linearLayoutPaddingActivity.class);
 //                        startActivity(intent6);
 //                        break;
                 }

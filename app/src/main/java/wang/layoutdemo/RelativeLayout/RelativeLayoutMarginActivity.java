@@ -10,7 +10,7 @@ import android.widget.TextView;
 import wang.layoutdemo.MainActivity;
 import wang.layoutdemo.R;
 
-public class RelativeLayoutMarginAndPaddingActivity extends AppCompatActivity {
+public class RelativeLayoutMarginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

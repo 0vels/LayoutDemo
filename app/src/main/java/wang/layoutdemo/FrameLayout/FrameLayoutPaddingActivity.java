@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import wang.layoutdemo.MainActivity;
 
-public class FrameLayoutMarginAndPaddingActivity extends AppCompatActivity {
+public class FrameLayoutPaddingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,11 +17,10 @@ public class FrameLayoutMarginAndPaddingActivity extends AppCompatActivity {
         TextView textView1 = new TextView(this);
         TextView textView2 = new TextView(this);
         TextView textView3 = new TextView(this);
-        frameLayout.setPadding(0,MainActivity.dp2px(20),0,0);
+        frameLayout.setPadding(0, MainActivity.dp2px(20),0,0);
         FrameLayout.LayoutParams text1 = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT,FrameLayout.LayoutParams.WRAP_CONTENT);
         text1.height = MainActivity.dp2px(200);
         text1.width = MainActivity.dp2px(200);
-        text1.setMargins(MainActivity.dp2px(15),0,MainActivity.dp2px(15),0);
         textView1.setBackgroundColor(Color.BLUE);
         textView1.setLayoutParams(text1);
 

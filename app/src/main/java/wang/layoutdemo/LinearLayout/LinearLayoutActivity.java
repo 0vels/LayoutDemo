@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 public class LinearLayoutActivity extends AppCompatActivity {
-    String[] layout = new String[]{"LinearLayoutBaseActivity", "LinearLayoutLeastCodeActivity", "LinearLayoutDividerActivity", "LinearLayoutGravityActivity","LinearLayoutWeightActivity","LinearLayoutMarginAndPaddingActivity"};
+    String[] layout = new String[]{"LinearLayoutBaseActivity", "LinearLayoutLeastCodeActivity", "LinearLayoutDividerActivity", "LinearLayoutGravityActivity","LinearLayoutWeightActivity","LinearLayoutMarginActivity","linearLayoutPaddingActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,8 +45,11 @@ public class LinearLayoutActivity extends AppCompatActivity {
                         startActivity(intent5);
                         break;
                     case 5:
-                        Intent intent6 = new Intent(LinearLayoutActivity.this, linearLayoutMarginAndPaddingActivity.class);
+                        Intent intent6 = new Intent(LinearLayoutActivity.this, linearLayoutMarginActivity.class);
                         startActivity(intent6);
+                    case 6:
+                        Intent intent7 = new Intent(LinearLayoutActivity.this, linearLayoutPaddingActivity.class);
+                        startActivity(intent7);
                         break;
                 }
             }

@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import wang.layoutdemo.MainActivity;
 
-public class linearLayoutBaseActivity extends AppCompatActivity {
+public class linearLayoutMarginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,10 +18,11 @@ public class linearLayoutBaseActivity extends AppCompatActivity {
         TextView textView2 = new TextView(this);
         TextView textView3 = new TextView(this);
 
-//        linearLayout.setOrientation(LinearLayout.VERTICAL);
+        linearLayout.setOrientation(LinearLayout.VERTICAL);
 
         LinearLayout.LayoutParams text1 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         text1.height = MainActivity.dp2px(50);
+        text1.setMargins(MainActivity.dp2px(15),0,MainActivity.dp2px(15),0);
         textView1.setBackgroundColor(Color.BLUE);
         textView1.setLayoutParams(text1);
 

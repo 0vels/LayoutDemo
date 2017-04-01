@@ -26,20 +26,25 @@
         <activity android:name=".FrameLayout.FrameLayoutForegroundActivity" />
         <activity android:name=".LinearLayout.LinearLayoutLeastCodeActivity" />
         <activity android:name=".LinearLayout.linearLayoutBaseActivity" />
-        <activity android:name=".FrameLayout.FrameLayoutMarginAndPaddingActivity" />
+        <activity android:name=".FrameLayout.FrameLayoutMarginActivity" />
         <activity android:name=".LinearLayout.linearLayoutWeightActivity" />
         <activity android:name=".LinearLayout.linearLayoutDividerActivity" />
-        <activity android:name=".LinearLayout.linearLayoutMarginAndPaddingActivity" />
+        <activity android:name=".LinearLayout.linearLayoutPaddingActivity" />
+        <activity android:name=".LinearLayout.linearLayoutMarginActivity" />
         <activity android:name=".LinearLayout.LinearLayoutGravityActivity" />
         <activity android:name=".TableLayout.TableLayoutLeastCodeActivity" />
         <activity android:name=".TableLayout.TableLayoutBaseActivity" />
-        <activity android:name=".TableLayout.TableLayoutShrinkAndStretchActivity" />
+        <activity android:name=".TableLayout.TableLayoutShrinkActivity" />
+        <activity android:name=".TableLayout.TableLayoutStretchActivity" />
         <activity android:name=".RelativeLayout.RelativeLayoutLeastCodeActivity" />
         <activity android:name=".RelativeLayout.RelativeLayoutBaseActivity" />
         <activity android:name=".RelativeLayout.RelativeLayoutAlighParentActivity" />
-        <activity android:name=".RelativeLayout.RelativeLayoutMarginAndPaddingActivity" />
+        <activity android:name=".RelativeLayout.RelativeLayoutMarginActivity" />
+        <activity android:name=".RelativeLayout.RelativeLayoutPaddingActivity" />
         <activity android:name=".GridLayout.GridLeastCodeActivity" />
         <activity android:name=".GridLayout.GridBaseActivity" />
+        <activity android:name=".FrameLayout.FrameLayoutPaddingActivity" />
+        <activity android:name=".TableLayout.TableLayoutCollapseActivity"></activity>
     </application>
 
 </manifest>
