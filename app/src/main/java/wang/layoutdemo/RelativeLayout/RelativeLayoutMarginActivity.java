@@ -8,7 +8,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import wang.layoutdemo.MainActivity;
-import wang.layoutdemo.R;
 
 public class RelativeLayoutMarginActivity extends AppCompatActivity {
 
@@ -28,14 +27,14 @@ public class RelativeLayoutMarginActivity extends AppCompatActivity {
         textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
 
-        RelativeLayout.LayoutParams imageParam = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
-        imageParam.height = MainActivity.dp2px(100);
-        imageParam.width = MainActivity.dp2px(100);
-        imageParam.addRule(RelativeLayout.CENTER_IN_PARENT);
-        imageView.setBackgroundColor(Color.GRAY);
-        imageView.setPadding(MainActivity.dp2px(20), MainActivity.dp2px(20), 0, 0);
-        imageView.setImageDrawable(getDrawable(R.drawable.zhs));
-        imageView.setLayoutParams(imageParam);
+//        RelativeLayout.LayoutParams imageParam = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+//        imageParam.height = MainActivity.dp2px(100);
+//        imageParam.width = MainActivity.dp2px(100);
+//        imageParam.addRule(RelativeLayout.CENTER_IN_PARENT);
+//        imageView.setBackgroundColor(Color.GRAY);
+//        imageView.setPadding(MainActivity.dp2px(20), MainActivity.dp2px(20), 0, 0);
+//        imageView.setImageDrawable(getDrawable(R.drawable.zhs));
+//        imageView.setLayoutParams(imageParam);
 //
 //        RelativeLayout.LayoutParams text2 = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
 ////        RelativeLayout.LayoutParams text4 = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT,RelativeLayout.LayoutParams.MATCH_PARENT);
@@ -54,7 +53,7 @@ public class RelativeLayoutMarginActivity extends AppCompatActivity {
 //        textView3.setLayoutParams(text3);
 
         relativeLayout.addView(textView1);
-        relativeLayout.addView(imageView);
+//        relativeLayout.addView(imageView);
 //        relativeLayout.addView(textView2);
 //        relativeLayout.addView(textView3);
 

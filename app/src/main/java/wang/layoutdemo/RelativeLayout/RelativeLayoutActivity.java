@@ -45,7 +45,7 @@ public class RelativeLayoutActivity extends AppCompatActivity {
                         startActivity(intent5);
                         break;
 //                    case 5:
-//                        Intent intent6 = new Intent(RelativeLayoutActivity.this, linearLayoutPaddingActivity.class);
+//                        Intent intent6 = new Intent(RelativeLayoutActivity.this, LinearLayoutPaddingActivity.class);
 //                        startActivity(intent6);
 //                        break;
                 }

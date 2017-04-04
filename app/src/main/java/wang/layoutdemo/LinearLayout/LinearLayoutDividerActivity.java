@@ -9,7 +9,7 @@ import android.widget.TextView;
 import wang.layoutdemo.MainActivity;
 import wang.layoutdemo.R;
 
-public class linearLayoutDividerActivity extends AppCompatActivity {
+public class LinearLayoutDividerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

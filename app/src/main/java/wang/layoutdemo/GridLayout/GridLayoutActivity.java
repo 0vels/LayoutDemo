@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import wang.layoutdemo.LinearLayout.linearLayoutDividerActivity;
+import wang.layoutdemo.LinearLayout.LinearLayoutDividerActivity;
 
 public class GridLayoutActivity extends AppCompatActivity {
     String[] layout = new String[]{"GridLeastCodeActivity", "GridBaseActivity"};
@@ -35,7 +35,7 @@ public class GridLayoutActivity extends AppCompatActivity {
                         startActivity(intent2);
                         break;
                     case 2:
-                        Intent intent3 = new Intent(GridLayoutActivity.this, linearLayoutDividerActivity.class);
+                        Intent intent3 = new Intent(GridLayoutActivity.this, LinearLayoutDividerActivity.class);
                         startActivity(intent3);
                         break;
 

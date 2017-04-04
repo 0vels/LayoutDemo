@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 public class LinearLayoutActivity extends AppCompatActivity {
-    String[] layout = new String[]{"LinearLayoutBaseActivity", "LinearLayoutLeastCodeActivity", "LinearLayoutDividerActivity", "LinearLayoutGravityActivity","LinearLayoutWeightActivity","LinearLayoutMarginActivity","linearLayoutPaddingActivity"};
+    String[] layout = new String[]{"LinearLayoutBaseActivity", "LinearLayoutLeastCodeActivity", "LinearLayoutDividerActivity", "LinearLayoutGravityActivity","LinearLayoutWeightActivity","LinearLayoutMarginActivity","LinearLayoutPaddingActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class LinearLayoutActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
                     case 0:
-                        Intent intent1 = new Intent(LinearLayoutActivity.this, linearLayoutBaseActivity.class);
+                        Intent intent1 = new Intent(LinearLayoutActivity.this, LinearLayoutBaseActivity.class);
                         startActivity(intent1);
                         break;
                     case 1:
@@ -33,7 +33,7 @@ public class LinearLayoutActivity extends AppCompatActivity {
                         startActivity(intent2);
                         break;
                     case 2:
-                        Intent intent3 = new Intent(LinearLayoutActivity.this, linearLayoutDividerActivity.class);
+                        Intent intent3 = new Intent(LinearLayoutActivity.this, LinearLayoutDividerActivity.class);
                         startActivity(intent3);
                         break;
                     case 3:
@@ -41,14 +41,15 @@ public class LinearLayoutActivity extends AppCompatActivity {
                         startActivity(intent4);
                         break;
                     case 4:
-                        Intent intent5 = new Intent(LinearLayoutActivity.this, linearLayoutWeightActivity.class);
+                        Intent intent5 = new Intent(LinearLayoutActivity.this, LinearLayoutWeightActivity.class);
                         startActivity(intent5);
                         break;
                     case 5:
-                        Intent intent6 = new Intent(LinearLayoutActivity.this, linearLayoutMarginActivity.class);
+                        Intent intent6 = new Intent(LinearLayoutActivity.this, LinearLayoutMarginActivity.class);
                         startActivity(intent6);
+                        break;
                     case 6:
-                        Intent intent7 = new Intent(LinearLayoutActivity.this, linearLayoutPaddingActivity.class);
+                        Intent intent7 = new Intent(LinearLayoutActivity.this, LinearLayoutPaddingActivity.class);
                         startActivity(intent7);
                         break;
                 }

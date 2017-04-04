@@ -25,12 +25,12 @@
         <activity android:name=".FrameLayout.FrameLayoutBaseActivity" />
         <activity android:name=".FrameLayout.FrameLayoutForegroundActivity" />
         <activity android:name=".LinearLayout.LinearLayoutLeastCodeActivity" />
-        <activity android:name=".LinearLayout.linearLayoutBaseActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutBaseActivity" />
         <activity android:name=".FrameLayout.FrameLayoutMarginActivity" />
-        <activity android:name=".LinearLayout.linearLayoutWeightActivity" />
-        <activity android:name=".LinearLayout.linearLayoutDividerActivity" />
-        <activity android:name=".LinearLayout.linearLayoutPaddingActivity" />
-        <activity android:name=".LinearLayout.linearLayoutMarginActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutWeightActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutDividerActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutPaddingActivity" />
+        <activity android:name=".LinearLayout.LinearLayoutMarginActivity" />
         <activity android:name=".LinearLayout.LinearLayoutGravityActivity" />
         <activity android:name=".TableLayout.TableLayoutLeastCodeActivity" />
         <activity android:name=".TableLayout.TableLayoutBaseActivity" />

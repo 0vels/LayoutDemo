@@ -26,17 +26,7 @@ public class GridBaseActivity extends AppCompatActivity {
             gridLayout.addView(textView);
         }
 
-//        TextView textView = new TextView(this);
-//        GridLayout.Spec row1 = GridLayout.spec(2);
-//        GridLayout.Spec col1 = GridLayout.spec(3);
-//        GridLayout.LayoutParams textParam = new GridLayout.LayoutParams(row1,col1);
-//        textParam.width = MainActivity.dp2px(20);
-//        textParam.height = MainActivity.dp2px(20);
-//
-//        textView.setLayoutParams(textParam);
-//        textView.setText("a");
-//
-//        gridLayout.addView(textView);
+
 
         setContentView(gridLayout);
     }

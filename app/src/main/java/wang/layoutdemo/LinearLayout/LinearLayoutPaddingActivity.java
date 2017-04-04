@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import wang.layoutdemo.MainActivity;
 
-public class linearLayoutPaddingActivity extends AppCompatActivity {
+public class LinearLayoutPaddingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,20 +19,19 @@ public class linearLayoutPaddingActivity extends AppCompatActivity {
         TextView textView3 = new TextView(this);
 
         linearLayout.setOrientation(LinearLayout.VERTICAL);
-
-        LinearLayout.LayoutParams text1 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
+        linearLayout.setPadding(MainActivity.dp2px(10), 0, 0, 0);
+        LinearLayout.LayoutParams text1 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         text1.height = MainActivity.dp2px(50);
         textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
 
-        LinearLayout.LayoutParams text2 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams text2 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         text2.height = MainActivity.dp2px(50);
         textView2.setBackgroundColor(Color.GREEN);
         textView2.setLayoutParams(text2);
 
-        LinearLayout.LayoutParams text3 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams text3 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         text3.height = MainActivity.dp2px(50);
-        textView3.setPaddingRelative(20,20,20,20);
         textView3.setBackgroundColor(Color.BLUE);
         textView3.setLayoutParams(text3);
 
