@@ -22,17 +22,17 @@ public class linearLayoutBaseActivity extends AppCompatActivity {
 
         LinearLayout.LayoutParams text1 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         text1.height = MainActivity.dp2px(50);
-        textView1.setBackgroundColor(Color.BLUE);
+        textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
 
         LinearLayout.LayoutParams text2 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         text2.height = MainActivity.dp2px(50);
-        textView2.setBackgroundColor(Color.RED);
+        textView2.setBackgroundColor(Color.GREEN);
         textView2.setLayoutParams(text2);
 
         LinearLayout.LayoutParams text3 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         text3.height = MainActivity.dp2px(50);
-        textView3.setBackgroundColor(Color.GREEN);
+        textView3.setBackgroundColor(Color.BLUE);
         textView3.setLayoutParams(text3);
 
         linearLayout.addView(textView1);

@@ -25,7 +25,7 @@ public class RelativeLayoutMarginActivity extends AppCompatActivity {
         text1.height = MainActivity.dp2px(100);
         text1.width = MainActivity.dp2px(100);
         text1.setMargins(MainActivity.dp2px(10), MainActivity.dp2px(10), 0, 0);
-        textView1.setBackgroundColor(Color.BLUE);
+        textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
 
         RelativeLayout.LayoutParams imageParam = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);

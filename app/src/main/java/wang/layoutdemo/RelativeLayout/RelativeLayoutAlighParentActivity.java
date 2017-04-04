@@ -24,7 +24,7 @@ public class RelativeLayoutAlighParentActivity extends AppCompatActivity {
         text1.height = MainActivity.dp2px(100);
         text1.width = MainActivity.dp2px(100);
         text1.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
-        textView1.setBackgroundColor(Color.BLUE);
+        textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
         textView1.setId(View.generateViewId());
 
@@ -33,7 +33,7 @@ public class RelativeLayoutAlighParentActivity extends AppCompatActivity {
         text2.height = MainActivity.dp2px(100);
         text2.width = MainActivity.dp2px(100);
         text2.addRule(RelativeLayout.LEFT_OF, textView1.getId());
-        textView2.setBackgroundColor(Color.RED);
+        textView2.setBackgroundColor(Color.GREEN);
         textView2.setLayoutParams(text2);
         textView2.setId(View.generateViewId());
 
@@ -41,7 +41,7 @@ public class RelativeLayoutAlighParentActivity extends AppCompatActivity {
         text3.height = MainActivity.dp2px(100);
         text3.width = MainActivity.dp2px(100);
         text3.addRule(RelativeLayout.CENTER_IN_PARENT);
-        textView3.setBackgroundColor(Color.GREEN);
+        textView3.setBackgroundColor(Color.BLUE);
         textView3.setLayoutParams(text3);
         textView3.setId(View.generateViewId());
 

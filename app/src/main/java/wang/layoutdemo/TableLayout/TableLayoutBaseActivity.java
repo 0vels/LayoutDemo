@@ -54,20 +54,20 @@ public class TableLayoutBaseActivity extends AppCompatActivity {
             tableLayout.setLayoutParams(layoutParams);
 
             TableLayout.LayoutParams tableRowParams = new TableLayout.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT, TableLayout.LayoutParams.WRAP_CONTENT);
-            tableRow1.setBackgroundColor(Color.BLUE);
+//            tableRow1.setBackgroundColor(Color.BLUE);
             tableRow1.setLayoutParams(tableRowParams);
 
             TableRow.LayoutParams text4 = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
             textView4.setText("444");
-            textView4.setBackgroundColor(Color.BLUE);
+            textView4.setBackgroundColor(Color.RED);
             textView4.setLayoutParams(text4);
             TableRow.LayoutParams text5 = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
             textView5.setText("555");
-            textView5.setBackgroundColor(Color.RED);
+            textView5.setBackgroundColor(Color.GREEN);
             textView5.setLayoutParams(text5);
             TableRow.LayoutParams text6 = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
             textView6.setText("666");
-            textView6.setBackgroundColor(Color.GREEN);
+            textView6.setBackgroundColor(Color.BLUE);
             textView6.setLayoutParams(text6);
 
             tableRow1.addView(textView4);

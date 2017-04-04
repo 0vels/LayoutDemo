@@ -21,19 +21,19 @@ public class RelativeLayoutBaseActivity extends AppCompatActivity {
         RelativeLayout.LayoutParams text1 = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
         text1.height = MainActivity.dp2px(200);
         text1.width = MainActivity.dp2px(200);
-        textView1.setBackgroundColor(Color.BLUE);
+        textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
 
         RelativeLayout.LayoutParams text2 = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
         text2.height = MainActivity.dp2px(150);
         text2.width = MainActivity.dp2px(150);
-        textView2.setBackgroundColor(Color.RED);
+        textView2.setBackgroundColor(Color.GREEN);
         textView2.setLayoutParams(text2);
 
         RelativeLayout.LayoutParams text3 = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
         text3.height = MainActivity.dp2px(100);
         text3.width = MainActivity.dp2px(100);
-        textView3.setBackgroundColor(Color.GREEN);
+        textView3.setBackgroundColor(Color.BLUE);
         textView3.setLayoutParams(text3);
 
         relativeLayout.addView(textView1);

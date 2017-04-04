@@ -25,13 +25,13 @@ public class LinearLayoutGravityActivity extends AppCompatActivity {
         text1.height = MainActivity.dp2px(50);
         text1.width = MainActivity.dp2px(50);
         text1.gravity = Gravity.CENTER_HORIZONTAL;
-        textView1.setBackgroundColor(Color.BLUE);
+        textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
 
         LinearLayout.LayoutParams text2 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         text2.height = MainActivity.dp2px(50);
         text2.width = MainActivity.dp2px(200);
-        textView2.setBackgroundColor(Color.RED);
+        textView2.setBackgroundColor(Color.GREEN);
         textView2.setGravity(Gravity.END);
         textView2.setText("Gravity");
         textView2.setLayoutParams(text2);
@@ -39,7 +39,7 @@ public class LinearLayoutGravityActivity extends AppCompatActivity {
         LinearLayout.LayoutParams text3 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         text3.height = MainActivity.dp2px(50);
         text3.width = MainActivity.dp2px(50);
-        textView3.setBackgroundColor(Color.GREEN);
+        textView3.setBackgroundColor(Color.BLUE);
         textView3.setLayoutParams(text3);
 
         linearLayout.addView(textView1);

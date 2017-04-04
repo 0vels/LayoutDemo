@@ -27,16 +27,16 @@ public class TableLayoutShrinkActivity extends AppCompatActivity {
         tableLayout.setLayoutParams(layoutParams);
 
         TableLayout.LayoutParams tableRowParams = new TableLayout.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT, TableLayout.LayoutParams.WRAP_CONTENT);
-        tableRow.setBackgroundColor(Color.BLUE);
+        tableRow.setBackgroundColor(Color.CYAN);
         tableRow.setLayoutParams(tableRowParams);
 
         TableRow.LayoutParams text1 = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
         textView1.setText("111");
-        textView1.setBackgroundColor(Color.BLUE);
+        textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
         TableRow.LayoutParams text2 = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
         textView2.setText("222");
-        textView2.setBackgroundColor(Color.RED);
+        textView2.setBackgroundColor(Color.YELLOW);
         textView2.setLayoutParams(text2);
         TableRow.LayoutParams text3 = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
         textView3.setText("333");
@@ -44,7 +44,7 @@ public class TableLayoutShrinkActivity extends AppCompatActivity {
         textView3.setLayoutParams(text3);
         TableRow.LayoutParams text4= new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT);
         textView4.setText("444");
-        textView4.setBackgroundColor(Color.GREEN);
+        textView4.setBackgroundColor(Color.BLUE);
         textView4.setLayoutParams(text4);
 
         tableRow.addView(textView1);

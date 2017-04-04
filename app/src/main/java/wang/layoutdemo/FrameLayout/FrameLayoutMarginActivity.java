@@ -22,19 +22,19 @@ public class FrameLayoutMarginActivity extends AppCompatActivity {
         text1.height = MainActivity.dp2px(200);
         text1.width = MainActivity.dp2px(200);
         text1.setMargins(MainActivity.dp2px(15),0,MainActivity.dp2px(15),0);
-        textView1.setBackgroundColor(Color.BLUE);
+        textView1.setBackgroundColor(Color.RED);
         textView1.setLayoutParams(text1);
 
         FrameLayout.LayoutParams text2 = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT,FrameLayout.LayoutParams.WRAP_CONTENT);
         text2.height = MainActivity.dp2px(150);
         text2.width = MainActivity.dp2px(150);
-        textView2.setBackgroundColor(Color.RED);
+        textView2.setBackgroundColor(Color.GREEN);
         textView2.setLayoutParams(text2);
 
         FrameLayout.LayoutParams text3 = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT,FrameLayout.LayoutParams.WRAP_CONTENT);
         text3.height = MainActivity.dp2px(100);
         text3.width = MainActivity.dp2px(100);
-        textView3.setBackgroundColor(Color.GREEN);
+        textView3.setBackgroundColor(Color.BLUE);
         textView3.setLayoutParams(text3);
 
         frameLayout.addView(textView1);
